@@ -1,5 +1,5 @@
 from django.contrib import admin
-from unfold.admin import ModelAdmin
+from django.contrib.admin import ModelAdmin
 from unfold.contrib.filters.admin import RangeNumericListFilter
 from import_export.admin import ImportExportModelAdmin
 from simple_history.admin import SimpleHistoryAdmin
